@@ -1,0 +1,32 @@
+#include <windows.h> // include for version info constants
+
+
+//
+// TO CHANGE VERSION INFORMATION, EDIT PROJECT OPTIONS...
+//
+1 VERSIONINFO
+FILEVERSION 2,2,0,0
+PRODUCTVERSION 2,2,0,0
+FILETYPE VFT_APP
+{
+  BLOCK "StringFileInfo"
+	 {
+		 BLOCK "040704E4"
+		 {
+			 VALUE "CompanyName", "www.hyper-world.de"
+			 VALUE "FileVersion", "2"
+			 VALUE "FileDescription", "Metasquares Port"
+			 VALUE "InternalName", "squared"
+			 VALUE "LegalCopyright", "© 2005, 2008 Jan Gosmann; Graphics by Yujiang Wang"
+			 VALUE "LegalTrademarks", ""
+			 VALUE "OriginalFilename", ""
+			 VALUE "ProductName", "Squared"
+			 VALUE "ProductVersion", "2.2"
+		 }
+	 }
+  BLOCK "VarFileInfo"
+	 {
+		 VALUE "Translation", 0x0407, 1252
+	 }
+}
+
